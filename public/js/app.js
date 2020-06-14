@@ -1,4 +1,3 @@
-console.log('Client side js is loaded');
 
 //we are going to fetch a json string and then return sth
 // fetch('http://puzzle.mead.io/puzzle').then((response)=>{
