@@ -4,7 +4,6 @@ body{
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -34,9 +33,19 @@ header a{
 }
 
 .potrait{
-    width: 500px;
+    width: 300px;
     margin: 10px;
 }
+
+@media (min-width:500px){
+    .potrait{
+        width: 500px;
+        margin: 10px;
+}
+/* .potrait{
+    width: 500px;
+    margin: 10px;
+} */
 
 .x{
     margin-top: 76px;
